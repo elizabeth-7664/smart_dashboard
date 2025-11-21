@@ -1,9 +1,8 @@
 # app/models/sales.py
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy import String, Integer, Float, Date
+from app.database.setup import Base
 
-class Base(DeclarativeBase):
-    pass
 
 class Sale(Base):
     __tablename__ = "sales"
