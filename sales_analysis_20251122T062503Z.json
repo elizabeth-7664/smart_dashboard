@@ -1,0 +1,429 @@
+{
+  "generated_at": "20251122T062503Z",
+  "summary": {
+    "total_revenue": 82640.0,
+    "total_cost": 55200.0,
+    "total_profit": 27440.0,
+    "transactions": 240,
+    "profit_margin_percent": 33.2
+  },
+  "revenue_per_product": [
+    {
+      "product_name": "Shampoo",
+      "revenue": 33600.0,
+      "units_sold": 480
+    },
+    {
+      "product_name": "Soap",
+      "revenue": 26640.0,
+      "units_sold": 888
+    },
+    {
+      "product_name": "Toothpaste",
+      "revenue": 22400.0,
+      "units_sold": 896
+    },
+    {
+      "product_name": "",
+      "revenue": 0.0,
+      "units_sold": 0
+    }
+  ],
+  "profit_per_product": [
+    {
+      "product_name": "Shampoo",
+      "profit": 9600.0,
+      "units_sold": 480
+    },
+    {
+      "product_name": "Toothpaste",
+      "profit": 8960.0,
+      "units_sold": 896
+    },
+    {
+      "product_name": "Soap",
+      "profit": 8880.0,
+      "units_sold": 888
+    },
+    {
+      "product_name": "",
+      "profit": 0.0,
+      "units_sold": 0
+    }
+  ],
+  "best_selling_product": {
+    "product_name": "Shampoo",
+    "revenue": 33600.0,
+    "units_sold": 480
+  },
+  "most_profitable_product": {
+    "product_name": "Shampoo",
+    "profit": 9600.0,
+    "units_sold": 480
+  },
+  "sales_per_day": [
+    {
+      "date": "2025-01-01",
+      "revenue": 850.0,
+      "units_sold": 23
+    },
+    {
+      "date": "2025-01-02",
+      "revenue": 1075.0,
+      "units_sold": 28
+    },
+    {
+      "date": "2025-01-03",
+      "revenue": 1120.0,
+      "units_sold": 31
+    },
+    {
+      "date": "2025-01-04",
+      "revenue": 825.0,
+      "units_sold": 24
+    },
+    {
+      "date": "2025-01-05",
+      "revenue": 1280.0,
+      "units_sold": 34
+    },
+    {
+      "date": "2025-01-06",
+      "revenue": 825.0,
+      "units_sold": 22
+    },
+    {
+      "date": "2025-01-07",
+      "revenue": 975.0,
+      "units_sold": 26
+    },
+    {
+      "date": "2025-01-08",
+      "revenue": 1080.0,
+      "units_sold": 28
+    },
+    {
+      "date": "2025-01-09",
+      "revenue": 960.0,
+      "units_sold": 27
+    },
+    {
+      "date": "2025-01-10",
+      "revenue": 1115.0,
+      "units_sold": 31
+    },
+    {
+      "date": "2025-01-11",
+      "revenue": 880.0,
+      "units_sold": 26
+    },
+    {
+      "date": "2025-01-12",
+      "revenue": 1235.0,
+      "units_sold": 32
+    },
+    {
+      "date": "2025-01-13",
+      "revenue": 1070.0,
+      "units_sold": 28
+    },
+    {
+      "date": "2025-01-14",
+      "revenue": 1315.0,
+      "units_sold": 34
+    },
+    {
+      "date": "2025-01-15",
+      "revenue": 1390.0,
+      "units_sold": 38
+    },
+    {
+      "date": "2025-01-16",
+      "revenue": 925.0,
+      "units_sold": 26
+    },
+    {
+      "date": "2025-01-17",
+      "revenue": 1105.0,
+      "units_sold": 29
+    },
+    {
+      "date": "2025-01-18",
+      "revenue": 1090.0,
+      "units_sold": 30
+    },
+    {
+      "date": "2025-01-19",
+      "revenue": 1085.0,
+      "units_sold": 32
+    },
+    {
+      "date": "2025-01-20",
+      "revenue": 1640.0,
+      "units_sold": 44
+    },
+    {
+      "date": "2025-01-21",
+      "revenue": 1210.0,
+      "units_sold": 32
+    },
+    {
+      "date": "2025-01-22",
+      "revenue": 1680.0,
+      "units_sold": 47
+    },
+    {
+      "date": "2025-01-23",
+      "revenue": 1265.0,
+      "units_sold": 35
+    },
+    {
+      "date": "2025-01-24",
+      "revenue": 1175.0,
+      "units_sold": 34
+    },
+    {
+      "date": "2025-01-25",
+      "revenue": 1595.0,
+      "units_sold": 43
+    },
+    {
+      "date": "2025-01-26",
+      "revenue": 1225.0,
+      "units_sold": 32
+    },
+    {
+      "date": "2025-01-27",
+      "revenue": 1100.0,
+      "units_sold": 29
+    },
+    {
+      "date": "2025-01-28",
+      "revenue": 1250.0,
+      "units_sold": 36
+    },
+    {
+      "date": "2025-01-29",
+      "revenue": 1545.0,
+      "units_sold": 42
+    },
+    {
+      "date": "2025-01-30",
+      "revenue": 950.0,
+      "units_sold": 27
+    },
+    {
+      "date": "2025-01-31",
+      "revenue": 1360.0,
+      "units_sold": 39
+    },
+    {
+      "date": "2025-02-01",
+      "revenue": 1300.0,
+      "units_sold": 35
+    },
+    {
+      "date": "2025-02-02",
+      "revenue": 1075.0,
+      "units_sold": 30
+    },
+    {
+      "date": "2025-02-03",
+      "revenue": 1460.0,
+      "units_sold": 38
+    },
+    {
+      "date": "2025-02-04",
+      "revenue": 1310.0,
+      "units_sold": 35
+    },
+    {
+      "date": "2025-02-05",
+      "revenue": 1425.0,
+      "units_sold": 38
+    },
+    {
+      "date": "2025-02-06",
+      "revenue": 1155.0,
+      "units_sold": 31
+    },
+    {
+      "date": "2025-02-07",
+      "revenue": 1045.0,
+      "units_sold": 29
+    },
+    {
+      "date": "2025-02-08",
+      "revenue": 1290.0,
+      "units_sold": 34
+    },
+    {
+      "date": "2025-02-09",
+      "revenue": 1520.0,
+      "units_sold": 41
+    },
+    {
+      "date": "2025-02-10",
+      "revenue": 1135.0,
+      "units_sold": 34
+    },
+    {
+      "date": "2025-02-11",
+      "revenue": 1220.0,
+      "units_sold": 34
+    },
+    {
+      "date": "2025-02-12",
+      "revenue": 1300.0,
+      "units_sold": 35
+    },
+    {
+      "date": "2025-02-13",
+      "revenue": 1530.0,
+      "units_sold": 42
+    },
+    {
+      "date": "2025-02-14",
+      "revenue": 1045.0,
+      "units_sold": 29
+    },
+    {
+      "date": "2025-02-15",
+      "revenue": 985.0,
+      "units_sold": 28
+    },
+    {
+      "date": "2025-02-16",
+      "revenue": 1210.0,
+      "units_sold": 33
+    },
+    {
+      "date": "2025-02-17",
+      "revenue": 1240.0,
+      "units_sold": 33
+    },
+    {
+      "date": "2025-02-18",
+      "revenue": 1060.0,
+      "units_sold": 29
+    },
+    {
+      "date": "2025-02-19",
+      "revenue": 1480.0,
+      "units_sold": 40
+    },
+    {
+      "date": "2025-02-20",
+      "revenue": 1035.0,
+      "units_sold": 30
+    },
+    {
+      "date": "2025-02-21",
+      "revenue": 1140.0,
+      "units_sold": 31
+    },
+    {
+      "date": "2025-02-22",
+      "revenue": 1280.0,
+      "units_sold": 34
+    },
+    {
+      "date": "2025-02-23",
+      "revenue": 1395.0,
+      "units_sold": 37
+    },
+    {
+      "date": "2025-02-24",
+      "revenue": 1175.0,
+      "units_sold": 34
+    },
+    {
+      "date": "2025-02-25",
+      "revenue": 1390.0,
+      "units_sold": 38
+    },
+    {
+      "date": "2025-02-26",
+      "revenue": 1265.0,
+      "units_sold": 35
+    },
+    {
+      "date": "2025-02-27",
+      "revenue": 985.0,
+      "units_sold": 28
+    },
+    {
+      "date": "2025-02-28",
+      "revenue": 1450.0,
+      "units_sold": 39
+    },
+    {
+      "date": "2025-03-01",
+      "revenue": 1260.0,
+      "units_sold": 37
+    },
+    {
+      "date": "2025-03-02",
+      "revenue": 1290.0,
+      "units_sold": 36
+    },
+    {
+      "date": "2025-03-03",
+      "revenue": 1190.0,
+      "units_sold": 31
+    },
+    {
+      "date": "2025-03-04",
+      "revenue": 975.0,
+      "units_sold": 28
+    },
+    {
+      "date": "2025-03-05",
+      "revenue": 1475.0,
+      "units_sold": 40
+    },
+    {
+      "date": "2025-03-06",
+      "revenue": 1415.0,
+      "units_sold": 39
+    },
+    {
+      "date": "2025-03-07",
+      "revenue": 1130.0,
+      "units_sold": 32
+    },
+    {
+      "date": "2025-03-08",
+      "revenue": 1330.0,
+      "units_sold": 38
+    },
+    {
+      "date": "2025-03-09",
+      "revenue": 1480.0,
+      "units_sold": 40
+    }
+  ],
+  "payment_methods": [
+    {
+      "payment_method": "Card",
+      "transactions": 68,
+      "revenue": 22400.0
+    },
+    {
+      "payment_method": "Cash",
+      "transactions": 68,
+      "revenue": 33600.0
+    },
+    {
+      "payment_method": "M-Pesa",
+      "transactions": 68,
+      "revenue": 26640.0
+    },
+    {
+      "payment_method": "",
+      "transactions": 36,
+      "revenue": 0.0
+    }
+  ],
+  "mpesa_transaction_count": 136
+}
