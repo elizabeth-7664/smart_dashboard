@@ -1,94 +1,97 @@
-Smart Dashboard Backend
+Sales Analysis Automation Backend
 
-Project Purpose
-Many SMEs in Kenya (and globally) waste hours managing fragmented sales, inventory, and customer data. They often rely on messy Excel sheets, manual accounting, and lack real-time insights.
-Smart Dashboard solves this by:
-Consolidating sales, inventory, and customer data in one system
-Providing real-time reporting and actionable insights
-Integrating payments (MPesa, bank) and notifications
-Being scalable for small businesses
+This project processes sales CSV files, analyzes them, saves structured results, and automatically emails daily reports. It is built with FastAPI, SQLAlchemy, async workflows, and a small analytics engine.
 
-Project Structure
+ Features
 
-backend_project/
-├── README.md
-└── app/
-    ├── __init__.py
-    ├── main.py
-    ├── database/
-    │   ├── __init__.py
-    │   ├── setup.py
-    │   └── init_db.py
-    ├── models/
-    │   └── sales.py
-    ├── routers/
-    │   └── .gitkeep
-    ├── schemas/
-    │   └── .gitkeep
-    └── services/
-        └── .gitkeep
-main.py → FastAPI entry point
-database/ → Async Postgres engine setup, DB initialization
-models/ → SQLAlchemy models (Sale)
-routers/ → API endpoints
-schemas/ → Pydantic validation
-services/ → Business logic
+Upload sales CSV files through an API
 
-Dependencies
-Python 3.12+
-Termux (Android)
-FastAPI
-SQLAlchemy (async)
-asyncpg (Postgres driver)
-pip install fastapi sqlalchemy asyncpg uvicorn
+Cleans and validates messy CSV data
 
-Database Setup
+Stores sales records in a database
 
-Postgres user and database
+Generates:
 
-CREATE ROLE smartuser WITH LOGIN PASSWORD 'tom@2025' CREATEDB;
-CREATE DATABASE smart_dashboard OWNER smartuser;
-Database URL for async engine 
+Revenue per product
 
-DATABASE_URL = "postgresql+asyncpg://smartuser:password@localhost:5432/smart_dashboard"
+Profit per product
 
-Initialize tables
-python -m app.database.init_db
-Creates sales table: id, date, product_name, quantity, cost_price, selling_price, payment_method, mpesa_transaction_id
+Sales per day
 
-Models
-Sale model (app/models/sales.py)
-Column
-Type
-Notes
-id
-SERIAL
-Primary key
-date
-DATE
-Sale date
-product_name
-VARCHAR
-Product name
-quantity
-INTEGER
-Quantity sold
-cost_price
-FLOAT
-Cost per unit
-selling_price
-FLOAT
-Selling price per unit
-payment_method
-VARCHAR
-E.g., Mpesa, Cash
-mpesa_transaction_id
-VARCHAR
-Optional transaction ID
+Full JSON analysis reports
 
-Current Progress
-Async Postgres backend set up on Termux
-sales table exists
-Project structure committed to GitHub (smart_dashboard)
-Ready for: CSV upload, sales insertion, FastAPI routes
+Automatically emails daily reports
+
+Environment-based configuration 
+
+  Project Structure
+
+app/
+  main.py                # FastAPI entrypoint
+  database/              # DB setup + session
+  models/                # SQLAlchemy models
+  routers/               # API routes
+  services/              # Analysis logic
+  utils/                 # Email + helper utilities
+data/                    # Generated analysis outputs
+
+  Setup Instructions
+
+1. Clone the repository
+
+git clone <your-repo-url>
+cd backend_project
+
+2. Create a virtual environment
+
+python3 -m venv venv
+source venv/bin/activate
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+4. Create a .env file
+
+The .env file is not committed and must be created manually:
+
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=your_email@gmail.com
+SMTP_PASS=your_app_password
+
+
+
+▶  Running the App
+
+Start the server:
+
+uvicorn app.main:app --reload
+
+Access docs:
+
+http://127.0.0.1:8000/docs
+
+  Testing
+
+pytest 
+
+ Daily Email Reports
+
+The automatic email sender:
+
+Collects the latest analysis results
+
+Formats them into an email
+
+Sends them using SMTP settings from .env
+
+  Author
+
+Built by Elizabeth Ndinda.
+
+  License
+
+MIT License .
+
 
