@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Data
+data/
+*.csv
+*.json
+
+# Backups
+*.save
+*.mdes
+
+# Environment file 
+.env
